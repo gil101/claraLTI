@@ -1,0 +1,81 @@
+
+
+
+body{
+	background-image: url("imagens/study4.jpg");
+	background-size: cover;
+	text-decoration: none;
+	text-align: center;
+	font-family: verdana;
+	color: white;
+}
+h1{
+	font-size: 70px;
+	padding-top: 200px;
+	text-shadow: 4px 4px 4px gray;
+	margin-bottom: 5px;
+}
+
+h2{
+	font-size: 20px;
+	color: #ad8b92;
+	margin-bottom: 30px;
+}
+
+p{
+	font-size:25px;
+}
+
+.cantosd{
+	float: left;
+
+}
+img{
+	margin-top: 20px;
+	width: 80%;
+}
+
+.botao-contacto{
+	text-decoration: none;
+	background-color: #6989ae;
+	font-size:20px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 2px;
+	color: white;
+	
+}
+
+.botao-contacto:hover{
+	background-color: #ad5858;
+}
+
+table{
+	margin-left: auto;
+  	margin-right: auto;
+  	padding-top: 80px;
+}
+
+table td{
+	padding-left: 25px;	
+	color: #ecf2f2;
+}
+
+table a{
+	color: #ecf2f2;
+}
+
+.lista{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 190px;
+}
+
+.lista li{
+	display: inline;
+}
+
+.lista a{
+	text-decoration: none;
+	color: white;
+	font-size:25px;
+}
