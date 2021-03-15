@@ -10,31 +10,43 @@ body{
 	color: white;
 	font-size: 100%;
 }
+
+
+
 h1{
-	font-size: 70px;
+	font-size: 450%;
 	padding-top: 200px;
 	text-shadow: 4px 4px 4px gray;
 	margin-bottom: 5px;
 }
 
 h2{
-	font-size: 20px;
+	font-size: 120%;
 	color: #546E8B;
 	margin-bottom: 30px;
 }
 
 p{
-	font-size:25px;
+	font-size:120%;
 }
 
-.cantosd{
+div.cantosd{
+  	position: absolute;
+  	top: 0;
+  	width: 100%;
+}
+
+.imagem-lti{
 	float: left;
+  	margin-top: 20px;
+  	margin-left: 20px;
+}
 
+.center {
+	margin:auto;
+  	padding: 10px;
 }
-img{
-	margin-top: 20px;
-	width: 80%;
-}
+
 
 .botao-contacto{
 	text-decoration: none;
@@ -42,56 +54,37 @@ img{
 	font-size:20px;
 	padding: 10px 15px 10px 15px;
 	border-radius: 2px;
-	color: white;
-	
+	color: white;	
 }
 
 .botao-contacto:hover{
 	background-color: #546E8B;
 }
 
-table{
-	margin-left: auto;
-  	margin-right: auto;
-  	margin-top: 80px;
-  	bottom: 5%;
+
+
+.center table{
+  	font-size: 105%;
+  	margin:auto;
   	
 }
 
-table td{
+.center table th{
+	letter-spacing: 2.3px;
+}
+
+.center table td{
 	padding-left: 25px;	
 	color: #303030;
 	background: rgba(223, 223, 223,0.3);
 }
 
-table a{
+.center table a{
 	color: #303030;
 	font-weight: bold;
-	font-size: 100%;
+	font-size: 110%;
 }
 
-.center {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-}
-
-/*
-.lista{
-	list-style: none;
-	padding-left: 0;
-	margin-top: 190px;
-}
-
-.lista li{
-	display: inline;
-}
-
-.lista a{
-	text-decoration: none;
-	color: white;
-	font-size:25px;
-}*/
 
 
 .footer {
