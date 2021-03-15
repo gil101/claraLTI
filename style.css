@@ -18,7 +18,7 @@ h1{
 
 h2{
 	font-size: 20px;
-	color: #ad8b92;
+	color: #546E8B;
 	margin-bottom: 30px;
 }
 
@@ -37,7 +37,7 @@ img{
 
 .botao-contacto{
 	text-decoration: none;
-	background-color: #6989ae;
+	background-color: #9FB4CB;
 	font-size:20px;
 	padding: 10px 15px 10px 15px;
 	border-radius: 2px;
@@ -46,24 +46,28 @@ img{
 }
 
 .botao-contacto:hover{
-	background-color: #ad5858;
+	background-color: #546E8B;
 }
 
 table{
 	margin-left: auto;
   	margin-right: auto;
-  	padding-top: 80px;
+  	margin-top: 80px;
+  	
 }
 
 table td{
 	padding-left: 25px;	
-	color: #ecf2f2;
+	color: #303030;
+	background: rgba(223, 223, 223,0.3);
 }
 
 table a{
-	color: #ecf2f2;
+	color: #303030;
+	font-weight: bold;
 }
 
+/*
 .lista{
 	list-style: none;
 	padding-left: 0;
@@ -75,6 +79,27 @@ table a{
 }
 
 .lista a{
+	text-decoration: none;
+	color: white;
+	font-size:25px;
+}*/
+
+
+.footer {
+	list-style: none;
+	padding-left: 0;
+   	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer ul li{
+	display: inline;
+}
+
+.footer ul a{
 	text-decoration: none;
 	color: white;
 	font-size:25px;
